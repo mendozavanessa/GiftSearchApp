@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.88aeaef1.chunk.css",
+    "main.js": "/static/js/main.df4ee947.chunk.js",
+    "main.js.map": "/static/js/main.df4ee947.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9fbce815.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9fbce815.js.map",
+    "static/js/2.4d565e9c.chunk.js": "/static/js/2.4d565e9c.chunk.js",
+    "static/js/2.4d565e9c.chunk.js.map": "/static/js/2.4d565e9c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.88aeaef1.chunk.css.map": "/static/css/main.88aeaef1.chunk.css.map",
+    "static/js/2.4d565e9c.chunk.js.LICENSE.txt": "/static/js/2.4d565e9c.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/TrailerParkGirl.3a907a84.otf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9fbce815.js",
+    "static/js/2.4d565e9c.chunk.js",
+    "static/css/main.88aeaef1.chunk.css",
+    "static/js/main.df4ee947.chunk.js"
+  ]
+}

@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*Agregando una nueva tipografia*/
+@font-face {
+  font-family: fuente_1;
+  font-style: normal;
+  font-weight: normal;
+  src : url(TrailerParkGirl.otf);
 }
+
+body {
+  padding: 60px;
+  background: linear-gradient(to left, rgb(60, 198, 240), white);
+}
+
+h3{
+  color: blue;
+}
+
+h2{
+  font-family: fuente_1;
+  font-size: 3rem;
+}
+
+input {
+  color: grey;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.cardGrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  align-content: center;
+  border: 1px solid grey;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.card p {
+  padding: 5px;
+  text-align: center;
+}
+
+.card img {
+  max-height: 170px;
+}
+
+.card:hover {
+  background: rgb(236, 255, 68);
+}
+
